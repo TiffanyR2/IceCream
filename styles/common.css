@@ -1,0 +1,21 @@
+.box table{
+   border: 2px dashed black;
+}
+.box{
+    margin:auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+button{
+    margin: auto;
+    padding: 1rem;
+}
+th{
+    text-align: right;
+}
+table{
+    margin: auto;
+}

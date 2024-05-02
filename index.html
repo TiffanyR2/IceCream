@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream</title>
+    <link rel="stylesheet" href="./styles/common.css">
+</head>
+
+<body>
+    <label>
+       Number of Scoops<input type="number" id="scoopsElement" value="1">
+    </label> 
+    <div class="choices">
+
+    <label><input type="radio" name="served" id="coneElement" value="Cone">Cone</label>
+    <label><input type="radio" name="served" id="cupElement" value="Cup">Cup</label>
+    </div>
+   
+    <div class="box">
+        <p>
+            Toppings
+        </p>
+        <table>
+            <tr>
+                <td>
+                    <input type="checkbox" id="sprinkleElement">Sprinkles ($0.50)
+                </td>
+
+                <td>
+                    <input type="checkbox" id="whippedElement">Whipped Cream ($0.25)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="hotElement"> Hot Fudge ($1.25)
+                </td>
+
+                <td>
+                    <input type="checkbox" id="cherryElement"> Cherry ($0.25)
+                </td>
+            </tr>
+        </table>
+    </div>
+    <button id="submitButton">Submit Order</button>
+    <table>
+        <tr>
+            <th>
+                Base Pay:
+            </th>
+            <td id="baseElement">
+                $0.00
+
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Tax:
+            </th>
+            <td id="taxElement">
+                $0.00
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Total Due:
+            </th>
+            <td id="totalElment">
+                $0.00
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
